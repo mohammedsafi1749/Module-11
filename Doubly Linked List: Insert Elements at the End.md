@@ -34,10 +34,55 @@ To write a Python program that:
 
 ---
 
-## 💻 Program
-Add Code here
+## 💻 Program      class Node:
+         def init (self, data): 
+            self.item = data 
+            self.nref = None 
+            self.pref = None
+      class DoublyLinkedList: 
+         def init (self):
+            self.start_node = None
+         def insert_in_emptylist(self, data): 
+            if self.start_node is None:
+               new_node = Node(data) 
+               self.start_node = new_node
+            else:
+               print("list is not empty") 
+         def insert_at_end(self, data):
+               new_node = Node(data) 
+           ifself.start_node is None:
+               self.start_node = new_node 
+           else:
+               print("list is not empty") 
+      def insert_at_end(self, data):
+            new_node = Node(data) 
+            ifself.start_node is None:
+               self.start_node = new_node 
+            else:
+               n = self.start_node
+            while n.nref is not None: 
+               n = n.nref
+            n.nref = new_node 
+            new_node.pref = n
+      def traverse_list(self):
+            if self.start_node is None: 
+               print("List has no element") 
+               return
+            else:
+               n = self.start_node 
+               while n is not None:
+                  print(n.item , " ") 
+                  n = n.nref
+      new_linked_list = DoublyLinkedList() 
+      new_linked_list.insert_at_end(10) 
+      new_linked_list.insert_at_end(20) 
+      new_linked_list.insert_at_end(30) 
+      new_linked_list.insert_at_end(40) 
+      new_linked_list.traverse_list()
+    
 
 ## Sample Output
+<img width="390" height="150" alt="image" src="https://github.com/user-attachments/assets/912fac26-e434-413f-9975-cc3fdb7e0dd9" />
 
 ## Result
-
+Thus the program executed successfully .
