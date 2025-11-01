@@ -1,4 +1,4 @@
-# # 🔍 Singly Linked List-To Search an Element in a Linked List
+## 🔍 Singly Linked List-To Search an Element in a Linked List
 
 This project contains a simple implementation of a **singly linked list** in Python, allowing insertion and searching of elements.
 
