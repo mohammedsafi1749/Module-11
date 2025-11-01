@@ -82,7 +82,7 @@ To write a Python program that:
     
 
 ## Sample Output
-<img width="390" height="150" alt="image" src="https://github.com/user-attachments/assets/912fac26-e434-413f-9975-cc3fdb7e0dd9" />
+<img width="1139" height="252" alt="image" src="https://github.com/user-attachments/assets/b84fcb75-8465-4577-bdd6-51ca35f88b36" />
 
 ## Result
 Thus the program executed successfully .
